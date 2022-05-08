@@ -1,0 +1,110 @@
+body {
+    background-color: #1abc9c;
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #6d8067;
+}
+
+#navbarVis, #myNavbar, a {
+    background-color: #383838;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#mainInfo, #mainInfoContact, #subInfoContact {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+#mainInfoContact {
+    font-size: 48px;
+}
+
+#subInfoContact {
+    margin: 0;
+    font-size: 24px;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.login {
+    margin-top: 25px;
+    display: grid;
+    place-items: center;
+}
+
+.warning {
+    background-color: red;
+    padding: 15px;
+    text-shadow: 1px 1px black;
+    border-radius: 12px;
+}
+
+.loginInput {
+    color: black;
+    border-radius: 12px;
+    padding-left: 12px;
+    margin: 2px;
+    width: 100%;
+}
+
+.loginButton {
+    color: black;
+    border-radius: 12px;
+    margin: 2px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+}
+
+.labelForm {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+.overzicht {
+    margin: 25px;
+}
+
+.overzichtHead {
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    border-color: black;
+    text-shadow: 1px 1px black;
+}
+
+.overzichtBtn {
+    padding-left: 5px;
+}
+
+.warningKamers {
+    margin: 25px;
+    width: 23%;
+}
+
+.homepageImage {
+    width: 100%;
+}
+
+.homepageImageDiv {
+    height: 500px;
+    overflow: hidden;
+}
